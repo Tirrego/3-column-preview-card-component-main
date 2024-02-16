@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  margin-top: 2rem;
+  width: 20%;
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+button {
+  padding: 0.7rem 1.8rem;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 95%);
+  margin: 2rem 0;
+  border: 0.1px solid white;
+}
+
+.btn-orange {
+  color: hsl(31, 77%, 52%);
+}
+.btn-orange:hover {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+  border: 1px solid white;
+}
+
+.btn-cyan {
+  color: hsl(184, 100%, 22%);
+}
+.btn-cyan:hover {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  border: 1px solid white;
+}
+
+.btn-dark-cyan {
+  color: hsl(179, 100%, 13%);
+}
+.btn-dark-cyan:hover {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+  border: 1px solid white;
+}
+
+img {
+  color: hsl(0, 0%, 95%);
+}
+
+body {
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.5rem;
+}
+
+.sedans {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 15px 15px 0 0;
+}
+
+.suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 15px 15px;
+}
+
+.cards {
+  margin: 2rem 0;
+}
+
+.card {
+  width: 19em;
+  padding: 0 2rem;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .cards {
+    display: flex;
+  }
+  .card {
+    width: 15.3rem;
+  }
+  button {
+    margin: 3.5rem 0 2rem 0;
+  }
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 15px 0 0 15px;
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 15px 15px 0;
+  }
+  .container {
+    height: 100vh;
+  }
+  p {
+    font-size: 0.8rem;
+  }
+}/*# sourceMappingURL=style.css.map */

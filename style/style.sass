@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap')
+
+$Bright_orange: hsl(31, 77%, 52%)
+$Dark_cyan: hsl(184, 100%, 22%)
+$Very_dark_cyan: hsl(179, 100%, 13%)
+$Very_light_gray: hsl(0, 0%, 95%)
+
+$Transparent_white: hsla(0, 0%, 100%, 0.75)
+
+*
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+img
+    margin-top: 2rem
+    width: 20%
+
+h2
+    font-family: "Big Shoulders Display", sans-serif
+    text-transform: uppercase
+    margin: 1rem 0
+    font-size: 2.5rem
+button
+    padding: 0.7rem 1.8rem
+    border-radius: 20px
+    background-color: $Very_light_gray
+    margin: 2rem 0
+    border: 0.1px solid white
+
+.btn-orange
+    color: $Bright_orange
+    &:hover
+        color: white
+        background-color: $Bright_orange
+        border: 1px solid white
+.btn-cyan
+    color: $Dark_cyan
+    &:hover
+        color: white
+        background-color: $Dark_cyan
+        border: 1px solid white
+
+.btn-dark-cyan
+    color: $Very_dark_cyan
+    &:hover
+        color: white
+        background-color: $Very_dark_cyan
+        border: 1px solid white
+
+img
+    color: $Very_light_gray
+
+body
+    color: $Very_light_gray
+    font-family: "Lexend Deca", sans-serif
+
+p
+    color: $Transparent_white
+    line-height: 1.5rem
+
+.sedans
+    background-color: $Bright_orange
+    border-radius: 15px 15px 0 0
+
+.suvs
+    background-color: $Dark_cyan
+
+.luxury
+    background-color: $Very_dark_cyan
+    border-radius: 0 0 15px 15px
+
+.cards
+    margin: 2rem 0
+
+.card
+    width: 19em
+    padding: 0 2rem
+
+.container
+    display: flex
+    justify-content: center
+    align-items: center
+
+@media(min-width: 1024px)
+    .cards
+        display: flex
+    .card
+        width: 15.3rem
+    button
+        margin: 3.5rem 0 2rem 0
+    .sedans
+        background-color: $Bright_orange
+        border-radius: 15px 0 0 15px
+
+    .luxury
+        background-color: $Very_dark_cyan
+        border-radius: 0 15px 15px 0
+    .container
+        height: 100vh
+    p
+        font-size: 0.8rem
